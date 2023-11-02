@@ -13,18 +13,18 @@ This is an introduction page to Beicheng Huang's career development. [Resume](re
 Here's a link to the [Linkedin](https://www.linkedin.com/in/beicheng-huang-118480225/) page.
 
 # Education
-**Columbia University, Mailman School of Public Health**, *New York, NY*
+**Columbia University, Mailman School of Public Health**, New York, NY
 
-Master of Science, Epidemiology (GPA: 4.00/4.00) 
+- Master of Science, Epidemiology (GPA: 4.00/4.00) 
 
-Teaching Assistant for Clinical Epidemiology (Fall 2023) 
+- Teaching Assistant for Clinical Epidemiology (Fall 2023) 
 
 
-**Wake Forest University**, *Winston-Salem, NC*
+**Wake Forest University**, Winston-Salem, NC
 
-Bachelor of Science, Biochemistry & Molecular Biology (Dean’s List) (Outstanding Poster Presentation Award)
+- Bachelor of Science, Biochemistry & Molecular Biology (Dean’s List) (Outstanding Poster Presentation Award)
 
-Minor in Computer Science 
+- Minor in Computer Science 
 
 
 # Skills
@@ -36,59 +36,56 @@ Minor in Computer Science
 # Work Experiences
 
 **Research Assistant (SAS)**
-*Guohua Li Lab at Columbia University Irving Medical Center, New York, NY*
+Guohua Li Lab at Columbia University Irving Medical Center, New York, NY
 
-	Analyzed longitudinal cohort data for 14k+ participants using SAS, building statistical models to assess the prevalence of population-wide PIMs (Potentially inappropriate medications) usage
+- 	Analyzed longitudinal cohort data for 14k+ participants using SAS, building statistical models to assess the prevalence of population-wide PIMs (Potentially inappropriate medications) usage
 
-	Explored the relationship between PIMs usage and the incidence of traffic injuries in the elderly population
+- 	Explored the relationship between PIMs usage and the incidence of traffic injuries in the elderly population
 
 **Thesis Research**
-*Ke Zhang Lab at Wake Forest University Department of Biology, Winston-Salem, NC*
+Ke Zhang Lab at Wake Forest University Department of Biology, Winston-Salem, NC
 
-	Identified and verified the differential gene expression among Ribosomal Protein paralogs in fission yeast under heat stress using RNA-seq, sequence alignment tools, and RT-PCR
+- 	Identified and verified the differential gene expression among Ribosomal Protein paralogs in fission yeast under heat stress using RNA-seq, sequence alignment tools, and RT-PCR
 
-	Proposed a novel pre-translation protein regulation mechanism through the discovery of alternative ribosome assembly process in Schizosaccharomyces pombe
+- 	Proposed a novel pre-translation protein regulation mechanism through the discovery of alternative ribosome assembly process in Schizosaccharomyces pombe
 
-	Analyzed differential expression of 120+ genes systematically based on IGB (Integrated Genome Browser) visualization and generated heatmaps of large scale data set using Excel 
+- 	Analyzed differential expression of 120+ genes systematically based on IGB (Integrated Genome Browser) visualization and generated heatmaps of large scale data set using Excel 
 
 **Lab Intern**
-*Institute of Biomedicine and Biotechnology, Shenzhen Institute of Advance Technology, China*
+Institute of Biomedicine and Biotechnology, Shenzhen Institute of Advance Technology, China
 
-	Participated in potential CAR-T targeted cancer treatment design
+- 	Participated in potential CAR-T targeted cancer treatment design
 
-	Developed laboratory operational skills
+- 	Developed laboratory operational skills
 
 **Research Assistant**
-*China Pharmaceutical University, Lab of Microbiology, Nanjing, China*
+China Pharmaceutical University, Lab of Microbiology, Nanjing, China
 
-	Conducted artificial selection of denitrification bacterial/fungal strains to be used for waterbody purification
+- 	Conducted artificial selection of denitrification bacterial/fungal strains to be used for waterbody purification
 
-	Designed and performed a series of experiments to isolate desirable bacteria strain
+- 	Designed and performed a series of experiments to isolate desirable bacteria strain
 
-	Successfully cultivated bacterial denitrification ability to be used against Water Eutrophication
+- 	Successfully cultivated bacterial denitrification ability to be used against Water Eutrophication
 
 
 # Project Experiences
 
 **Epidemiology SAS database analyses** 
 
-	Completed 8 U.S. National Health and Nutrition Examination Survey (NHANES) database analyses using SAS
+- 	Completed 8 U.S. National Health and Nutrition Examination Survey (NHANES) database analyses using SAS
 
-	Established population wide parameter estimates for exposure-outcome causal pathway, considering confounder effects and biases: 
-1.Sedentary Lifestyle and physiological measure 
-2. HPV vaccination receipt and demographics
+- 	Established population wide parameter estimates for exposure-outcome causal pathway, considering confounder effects and biases: 
+1.Sedentary Lifestyle and physiological measure 2. HPV vaccination receipt and demographics
 
 **Lifecourse Epidemiology Systematic Review**
 
-	Reviewed the effect of Waterbody Arsenic Pollution on p16 and p53 methylation in relation to cancer development based on over 70 primary literature review 
+- 	Reviewed the effect of Waterbody Arsenic Pollution on p16 and p53 methylation in relation to cancer development based on over 70 primary literature review 
 
-	Preliminary finding showed that hypermethylation of p16 and p53 caused by Arsenic intoxication leads to increased risk of multiple types of Cancer involving urinary, skin, kidney, etc.
+- 	Preliminary finding showed that hypermethylation of p16 and p53 caused by Arsenic intoxication leads to increased risk of multiple types of Cancer involving urinary, skin, kidney, etc.
 
 
 # Leadership Experience
 
 **Co-founder of Lucidity Investment Research**
 
-	Communicated pharmaceutical industry news and research advancements to the general public through social media platform, co-authored over 50 articles on concise and informative scientific overviews.
-
-
+- 	Communicated pharmaceutical industry news and research advancements to the general public through social media platform, co-authored over 50 articles on concise and informative scientific overviews.
