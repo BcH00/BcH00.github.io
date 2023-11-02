@@ -9,6 +9,8 @@ output:
 
 <img src="./resume photo.jpg" alt="Alt Text" width="546" height="598">
 
+Link to [Q2](Problem2.html)
+
 This is an introduction page to Beicheng Huang's career development. [Resume](resume.html) is attached.
 Here's a link to the [Linkedin](https://www.linkedin.com/in/beicheng-huang-118480225/) page.
 

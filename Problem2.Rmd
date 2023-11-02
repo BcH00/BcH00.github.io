@@ -2,10 +2,12 @@
 title: "Problem2"
 author: "Beicheng Huang"
 date: "2023-11-02"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-#Problem 2
 ```{r setup, include=FALSE}
 
 library(tidyverse)
@@ -19,7 +21,6 @@ knitr::opts_chunk$set(
 ```
 
 
-
 ```{r import and clean}
 noaa <- ny_noaa |>
   janitor::clean_names() |>
@@ -27,6 +28,7 @@ noaa <- ny_noaa |>
     date = as.Date(date),
     year = lubridate::year(date),
     month = lubridate::month(date),
+    day = lubridate::day(date),
     prcp = prcp / 10,  # Convert precipitation to mm
     tempmax = as.numeric(tmax),  # Convert character temperature to numeric degrees C 
     tempmin = as.numeric(tmin),
@@ -36,27 +38,9 @@ noaa <- ny_noaa |>
 ```
 
 
-```{r }
-temp_plot <- noaa |>
-  filter(year == 1989) |>
-  group_by(month) |>
-  summarise(avg_tmax = mean(tempmax), avg_tmin = mean(tempmin)) |>
-   plot_ly(x = ~year, 
-          color = ~year,
-          type = "scatter", 
-          mode = "lines+markers", 
-          marker = list(size = 7),
-          line = list(width = 2)) |>
-  add_lines(y = ~avg_tmax, name = "Average Max Temp") |>
-  add_lines(y = ~avg_tmin, name = "Average Min Temp") |>
-  layout(
-    title = "Average Maximum and Minimum Temperatures Over Time",
-    xaxis = list(title = "Year"),
-    yaxis = list(title = "Temperature (°C)")
-  )
-
-```
-
+Column {data-width=350}
+-----------------------------------------------------------------------
+###Scatter plot
 ```{r Scatterplot}
 noaa |>
   filter(!is.na(snow),year == 2008) |>
@@ -72,12 +56,14 @@ noaa |>
 ```
 
 
+Column {data-width=650}
+-----------------------------------------------------------------------
+###boxplot & ggplot
 ```{r Boxplot}
 noaa |>
   filter(!is.na(snwd),year == 2000) |>
   group_by(month) |>
-  plot_ly(x = ~month, y = ~snwd) |>
-  add_boxplot() |>
+  plot_ly(x = ~month, y = ~snwd, type = "box", colors = "id") |>
   layout(
     title = "Snow Depth Distribution by Month in 2000",
     xaxis = list(title = "Month"),
@@ -86,23 +72,13 @@ noaa |>
 ```
 
 
-```{r }
+```{r scatter-ggplot}
 scatter_ggplot = 
-  nyc_airbnb |>
-  ggplot(aes(x = lat, y = long, color = price)) +
+  noaa |>
+  filter(!is.na(prcp), !is.na(snow), year == 2008, month == 10) |>
+  ggplot(aes(x = day, y = prcp, color = snow)) +
   geom_point(alpha = 0.25) +
   coord_cartesian()
 
 ggplotly(scatter_ggplot)
-```
-
-```{r flexdashboard analysis}
-dashboard <- flexdashboard::flex_dashboard(
-  title = "New York National Climatic Data Center Weather Data Analysis",
-  tabset_panel(
-    tabPanel("Scatterplot", plotlyOutput("scatter_plot")),
-    tabPanel("Temperature Trends", plotlyOutput("temp_plot")),
-    tabPanel("Snow Depth Distribution", plotlyOutput("box_plot"))
-  )
-)
 ```
