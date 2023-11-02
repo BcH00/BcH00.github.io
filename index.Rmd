@@ -1,5 +1,5 @@
 ---
-title: "Beicheng Huang website"
+title: "Beicheng Huang Website"
 output: 
   html_document:
     toc: true
@@ -7,8 +7,10 @@ output:
     
 ---
 
+<img src="./resume photo.jpg" alt="Alt Text" width="546" height="598">
 
 This is an introduction page to Beicheng Huang's career development. [Resume](resume.html) is attached.
+Here's a link to the [Linkedin](https://www.linkedin.com/in/beicheng-huang-118480225/) page.
 
 # Education
 **Columbia University, Mailman School of Public Health**, *New York, NY*

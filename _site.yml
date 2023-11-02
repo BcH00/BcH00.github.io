@@ -11,6 +11,8 @@ navbar:
       href: mailto:<bh2852@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/BcH00/
+    - icon: fa-brands fa-linkedin
+      href: https://www.linkedin.com/in/beicheng-huang-118480225/
 output:
   html_document:
     theme: cerulean
