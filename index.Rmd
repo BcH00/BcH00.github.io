@@ -8,7 +8,7 @@ output:
 ---
 
 
-This is an introduction page to Beicheng Huang's career development.
+This is an introduction page to Beicheng Huang's career development. [Resume](resume.html) is attached.
 
 # Education
 **Columbia University, Mailman School of Public Health**, *New York, NY*
